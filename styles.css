@@ -496,7 +496,11 @@ li span{
 .color-palette {
   display: flex;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
+}
+
+.orange_kitchen{
+  margin-left: 22px;
 }
 
 .color-box {
@@ -830,7 +834,7 @@ li span{
   text-align: center;
   margin-left: 120px;
 }
-.logo-design-content {
+/* .logo-design-content {
   display: block;
   margin-top: 0px;
 }
@@ -840,10 +844,36 @@ li span{
 }
 .logo_img02 img{
   margin-left: 65px;
+} 
+  */
+
+.logo-design-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-section .description {
+  width: 100%;
+  order: 1;
+}
+
+.logo-section .logo_img {
+  width: 100%;
+  order: 2;
 }
 .color-palette {
   margin-bottom: 20px;
-  margin-left: 80px;
+  margin-left: 15px;
+}
+
+.orange_kitchen{
+  margin-left: 95px;
 }
 .footer-content h2 {
   font-size: 4rem;
